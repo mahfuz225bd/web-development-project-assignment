@@ -4,7 +4,7 @@ import { animatedTypingH2 } from './animatedTypingH2.js';
 // Enable `include-html` attribute for including html file
 includeHTML();
 
-window.addEventListener('load', () => {
+document.addEventListener('DOMContentLoaded', () => {
 	// Animated typing
 	animatedTypingH2('<Full Stack Developer>', 100);
 

@@ -1,0 +1,27 @@
+.mc-field-group {
+	margin-top: -14px;
+}
+
+.mc-field-group input {
+	background-color: #fff;
+	float: left;
+}
+
+.mc-field-group button {
+	background-color: var(--green);
+	cursor: pointer;
+	color: #fff;
+	border-left: none;
+	width: 45px;
+}
+
+.mc-field-group input,
+button {
+	font-size: 17px;
+	padding: 10px;
+	border: 1px solid grey;
+}
+
+#mc-embedded-subscribe-form button:hover {
+	background-color: var(--green2);
+}

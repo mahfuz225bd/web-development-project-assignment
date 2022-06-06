@@ -17,8 +17,8 @@
 	background-color: var(--green);
 }
 .skillbar .skills.react {
-	width: 80%;
-	background-color: var(--blue);
+	width: 75%;
+	background-color: var(--dark-grey);
 }
 .skillbar .skills.js {
 	width: 65%;
