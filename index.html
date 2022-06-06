@@ -10,7 +10,9 @@
 		<link rel="stylesheet" href="./assets/font-awesome/css/all.min.css" />
 	</head>
 	<body>
-		<header><i class="fa-solid fa-arrow-rotate-left" aria-hidden="true"></i> My Header</header>
+		<header class="sticky" include-html="./assets/layout/header.html">
+			<!-- Header will be loaded -->
+		</header>
 		<main>
 			<section class="col-3">
 				<article>A</article>
@@ -29,6 +31,11 @@
 			</section>
 		</main>
 		<footer>Footer</footer>
-		<script src="./assets/js/default.js"></script>
+
+		<script type="module">
+			import { includeHTML } from './assets/js/includeHTML.js';
+			includeHTML();
+		</script>
+		<!-- <script src="./assets/js/default.js" type="module"></script>		 -->
 	</body>
 </html>
