@@ -1,0 +1,61 @@
+/* hero-image.css */
+
+.hero-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('../img/hero-image.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 200px 0;
+}
+
+.hero-image .hero-text {
+	color: #fff;
+	text-align: center;
+}
+
+.hero-image .hero-text h1 {
+	font-size: 50px;
+	font-weight: 500;
+}
+
+.hero-image .hero-text p {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 10px;
+}
+
+.hero-image .hero-btn {
+	color: #fff;
+	background: var(--green);
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.hero-image .hero-btn:hover {
+	background: var(--green2);
+	color: #fff;
+}
+
+.hero-image .hero-btn-alt {
+	color: #fff;
+	border: solid 1px var(--green);
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.hero-image .hero-btn-alt:hover {
+	background: #fff;
+	color: #000;
+	opacity: 0.75;
+}
