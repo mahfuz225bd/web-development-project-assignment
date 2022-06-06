@@ -1,9 +1,11 @@
 export const includeHTML = () => {
-	var z, i, elmnt, file, xhttp;
+	let z, i, elmnt, file, xhttp;
+
 	/* Loop through a collection of all HTML elements: */
 	z = document.getElementsByTagName('*');
 	for (i = 0; i < z.length; i++) {
 		elmnt = z[i];
+
 		/*search for elements with a certain atrribute:*/
 		file = elmnt.getAttribute('include-html');
 		if (file) {
@@ -15,7 +17,16 @@ export const includeHTML = () => {
 						elmnt.innerHTML = this.responseText;
 					}
 					if (this.status == 404) {
-						elmnt.innerHTML = 'Page not found.';
+						elmnt.innerHTML =
+							"<span style='color:red;'>FileNotFound: '" +
+							file +
+							"' is not found.</span>";
+
+						console.error(
+							"FileNotFound: '" +
+								file +
+								"' is not found. Check your provided value of include-html attribute."
+						);
 					}
 					/* Remove the attribute, and call this function once more: */
 					elmnt.removeAttribute('include-html');
