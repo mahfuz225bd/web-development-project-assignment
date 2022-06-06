@@ -1,0 +1,13 @@
+/* card.css */
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 16px;
+	text-align: center;
+	background-color: #444;
+	color: white;
+}
+
+.card .fa {
+	font-size: 50px;
+}

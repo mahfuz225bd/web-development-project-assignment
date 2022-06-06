@@ -1,0 +1,43 @@
+/* skilbar.css */
+
+.skillbar {
+	width: 100%;
+	background-color: #ddd;
+}
+
+.skills {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+
+.skillbar .skills.html-css {
+	width: 90%;
+	background-color: var(--green);
+}
+.skillbar .skills.react {
+	width: 80%;
+	background-color: var(--blue);
+}
+.skillbar .skills.js {
+	width: 65%;
+	background-color: var(--dark-red);
+}
+.skillbar .skills.py {
+	width: 83%;
+	background-color: var(--blue);
+}
+
+.skillbar .skills.en {
+	width: 85%;
+	background-color: var(--blue);
+}
+.skillbar .skills.bn {
+	width: 95%;
+	background-color: var(--green);
+}
+.skillbar .skills.hi {
+	width: 70%;
+	background-color: var(--dark-grey);
+}

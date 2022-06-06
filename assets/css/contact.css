@@ -1,0 +1,35 @@
+/* contact.css */
+#contact .container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.contact-form input[type='text'],
+.contact-form input[type='email'],
+.contact-form select,
+.contact-form textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+.contact-form input[type='submit'] {
+	background-color: var(--green);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+.contact-form input[type='submit']:hover {
+	background-color: var(--green2);
+}
+
+.contact-form .required::after {
+	color: red;
+	content: ' *';
+}

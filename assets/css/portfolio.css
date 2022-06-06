@@ -1,0 +1,6 @@
+/* portfolio.css */
+
+.portfolio-container {
+	background-color: var(--bg-skin-grey);
+	padding: 10px;
+}

@@ -1,0 +1,48 @@
+/* social-linkbar.css */
+
+.social-icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	z-index: 2;
+}
+
+.social-icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+}
+
+.social-icon-bar a:hover {
+	background-color: #000;
+}
+
+.social-icon-bar a.facebook {
+	background: #3b5998;
+	color: white;
+}
+.social-icon-bar a.twitter {
+	background: #55acee;
+	color: white;
+}
+.social-icon-bar a.google {
+	background: #dd4b39;
+	color: white;
+}
+.social-icon-bar a.linkedin {
+	background: #007bb5;
+	color: white;
+}
+.social-icon-bar a.github {
+	background: #000;
+	color: white;
+}
+
+.social-icon-bar .toggle {
+	display: none;
+}

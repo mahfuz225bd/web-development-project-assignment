@@ -1,0 +1,75 @@
+/* chat.css */
+
+.open-chat-btn {
+	background-color: var(--green);
+	border: none;
+	padding: 19px;
+	border-radius: 50%;
+	cursor: pointer;
+	position: fixed;
+	bottom: 23px;
+	right: 28px;
+	z-index: 2;
+}
+
+.open-chat-btn:hover {
+	background-color: var(--green2);
+}
+
+.open-chat-btn .fa {
+	font-size: 19px;
+	color: white;
+}
+
+.chat-popup {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	right: 15px;
+	border: 3px solid var(--bg-skin-grey);
+	z-index: 9;
+}
+
+.chat-popup .form-container {
+	max-width: 300px;
+	padding: 10px;
+	background-color: white;
+}
+
+.chat-popup .form-container textarea {
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	border: none;
+	background: var(--bg-skin-grey);
+	resize: none;
+	min-height: 200px;
+}
+
+.chat-popup .form-container textarea:focus {
+	background-color: #ddd;
+	outline: none;
+}
+
+.chat-popup .form-container .btn {
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	margin-bottom: 10px;
+	opacity: 0.8;
+}
+
+.chat-popup .form-container .send {
+	background-color: var(--green);
+}
+
+.chat-popup .form-container .cancel {
+	background-color: red;
+}
+
+.chat-popup .form-container .btn:hover,
+.chat-popup .form-container .open-button:hover {
+	opacity: 1;
+}
