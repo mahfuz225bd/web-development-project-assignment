@@ -10,27 +10,9 @@
 		<link rel="stylesheet" href="./assets/font-awesome/css/all.min.css" />
 	</head>
 	<body>
-		<header class="sticky" include-html="./assets/layout/header.htm">
-			<!-- Header will be loaded -->
-		</header>
-		<main>
-			<section class="col-3">
-				<article>A</article>
-				<article>B</article>
-				<article>C</article>
-			</section>
-			<section class="col-3">
-				<article>A</article>
-				<article>B</article>
-				<article>C</article>
-			</section>
-			<section class="col-3">
-				<article>A</article>
-				<article>B</article>
-				<article>C</article>
-			</section>
-		</main>
-		<footer>Footer</footer>
+		<div class="wrapper" id="pageLoader" include-html="./pages/index.html">
+			<!-- Load HTML according to page router -->
+		</div>
 
 		<script src="./assets/js/default.js" type="module"></script>
 	</body>
