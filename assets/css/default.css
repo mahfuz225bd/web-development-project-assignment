@@ -222,8 +222,8 @@ main section.first-section article p::first-letter {
 	background-color: var(--dark-red);
 }
 .skillbar .skills.py {
-	width: 75%;
-	background-color: var(--dark-grey);
+	width: 83%;
+	background-color: var(--blue);
 }
 
 .skillbar .skills.en {
@@ -452,8 +452,8 @@ main section.first-section article p::first-letter {
 	background: #007bb5;
 	color: white;
 }
-.social-icon-bar a.youtube {
-	background: #bb0000;
+.social-icon-bar a.github {
+	background: #000;
 	color: white;
 }
 
