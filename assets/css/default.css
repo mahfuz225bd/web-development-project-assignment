@@ -106,6 +106,15 @@ section:after {
 	clear: both;
 }
 
+section a {
+	color: var(--green);
+}
+
+section a:hover {
+	color: crimson;
+}
+
+
 main section.first-section article p::first-letter {
 	font-size: x-large;
 	color: var(--green);
