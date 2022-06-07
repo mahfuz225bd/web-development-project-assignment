@@ -142,3 +142,13 @@ footer section p,
 label {
 	opacity: 0.65;
 }
+
+
+footer section a{
+	color: #fff;
+	text-decoration: none;
+}
+
+footer section a:hover {
+	color: var(--green);
+}

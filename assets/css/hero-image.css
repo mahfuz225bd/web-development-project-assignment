@@ -20,12 +20,12 @@
 
 .hero-image .hero-text h1 {
 	font-size: 50px;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .hero-image .hero-text p {
 	font-size: 30px;
-	font-weight: 500;
+	font-weight: normal;
 	line-height: 10px;
 }
 
@@ -58,4 +58,8 @@
 	background: #fff;
 	color: #000;
 	opacity: 0.75;
+}
+
+.hero-image a {
+	font-size: large;
 }
