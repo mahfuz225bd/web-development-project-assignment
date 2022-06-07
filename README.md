@@ -4,9 +4,9 @@ I made this project for final exam of Web Development Project (66654), 5th semes
 
 ### This Project Developed By
 
-Muhammad Sultan Al Mahfuz
-Email Address: <mahfuz225bd@gmail.com>
-Semester: 5th
-Shift: 2nd
-Group: A
-Roll: 457214
+Muhammad Sultan Al Mahfuz  
+Email Address: <mahfuz225bd@gmail.com>  
+Semester: 5th  
+Shift: 2nd  
+Group: A  
+Roll: 457214  
