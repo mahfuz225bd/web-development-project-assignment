@@ -4,3 +4,7 @@
 	background-color: var(--bg-skin-grey);
 	padding: 10px;
 }
+
+.portfolio-container h4 {
+	text-align: center;
+}
