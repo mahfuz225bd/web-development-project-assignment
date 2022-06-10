@@ -11,7 +11,13 @@
 			<p>Ready for Developing</p>
 			<p>Any Website From You</p>
 			<a href="#hire" class="hero-btn">Hire Me</a>
+<<<<<<< HEAD:pages/index.php
 			<a href="../assets/download/my-cv.pdf" target="_blank" class="hero-btn-alt">Download CV</a>
+=======
+			<a href="./assets/download/my-cv.pdf" target="_blank" class="hero-btn-alt"
+				>Download CV</a
+			>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 		</div>
 	</section>
 
@@ -106,29 +112,62 @@
 	</section>
 
 	<!-- Portfolio Gallery - Section I -->
+	<!-- img src provided according to root index -->
 	<section class="col-4">
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/1.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/1.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 
 				<h4>Vaaz Interior</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/2.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/2.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>Expert IT Limited</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/3.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/3.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>Akib Automobile</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/4.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/4.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>Pizzeria Restaurant</h4>
 			</div>
 		</article>
@@ -138,25 +177,57 @@
 	<section id="" class="col-4">
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/5.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/5.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>Interior Design Company</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/6.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/6.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>Mart Fury Online Fruit Shop</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/7.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/7.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>shopp.my Online Dress Shop</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
+<<<<<<< HEAD:pages/index.php
 				<img src="../assets/img/portfolio/8.jpg" alt="Blank Portfolio" style="width: 100%" />
+=======
+				<img
+					src="./assets/img/portfolio/8.jpg"
+					alt="Blank Portfolio"
+					style="width: 100%"
+				/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 				<h4>News Fresh e-Newspaper</h4>
 			</div>
 		</article>
@@ -213,12 +284,21 @@
 	</section>
 
 	<!-- Testimonial -->
+	<!-- img src provided according to root index -->
 	<section class="col-1">
 		<h3>Some Quotes of People about Me</h3>
 		<article>
 			<div class="testimonial">
 				<div class="container active">
+<<<<<<< HEAD:pages/index.php
 					<img src="../assets/img/avatars/avatar1.png" alt="Abdul Jobbar Mia" style="width: 90px" />
+=======
+					<img
+						src="./assets/img/avatars/avatar1.png"
+						alt="Abdul Jobbar Mia"
+						style="width: 90px"
+					/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 					<p>
 						<span class="name">Abdul Jobbar Mia</span>
 						<span class="title">CEO at Northwind</span>
@@ -226,7 +306,15 @@
 					<p>He saved our time with his beautyful hand solution.</p>
 				</div>
 				<div class="container">
+<<<<<<< HEAD:pages/index.php
 					<img src="../assets/img/avatars/avatar2.png" alt="Saira Hakim" style="width: 90px" />
+=======
+					<img
+						src="./assets/img/avatars/avatar2.png"
+						alt="Saira Hakim"
+						style="width: 90px"
+					/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 					<p>
 						<span class="name">Saira Hakim</span>
 						<span class="title">Teacher of Blueberry School</span>
@@ -234,7 +322,15 @@
 					<p>Expert person like him we really expect.</p>
 				</div>
 				<div class="container">
+<<<<<<< HEAD:pages/index.php
 					<img src="../assets/img/avatars/avatar3.png" alt="Mohammad Abdul Halim" style="width: 90px" />
+=======
+					<img
+						src="./assets/img/avatars/avatar3.png"
+						alt="Mohammad Abdul Halim"
+						style="width: 90px"
+					/>
+>>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
 					<p>
 						<span class="name">Mohammad Abdul Halim</span>
 						<span class="title">Works at Self-employed Business</span>
