@@ -15,13 +15,13 @@
 	width: 45px;
 }
 
+#mc-embedded-subscribe-form button:hover {
+	background-color: var(--green2);
+}
+
 .mc-field-group input,
 button {
 	font-size: 17px;
 	padding: 10px;
 	border: 1px solid grey;
-}
-
-#mc-embedded-subscribe-form button:hover {
-	background-color: var(--green2);
 }

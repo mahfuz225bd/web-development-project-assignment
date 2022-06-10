@@ -100,6 +100,13 @@ section.col-4 article {
 	width: 25%;
 }
 
+section.first-section {
+	text-align: center;
+	background-color: #474e5d;
+	color: white;
+	padding: 15px;
+}
+
 section:after {
 	content: '';
 	display: table;
@@ -110,14 +117,45 @@ section a {
 	color: var(--green);
 }
 
-section a:hover {
+section a:hover:not(.btn) {
 	color: crimson;
 }
-
 
 main section.first-section article p::first-letter {
 	font-size: x-large;
 	color: var(--green);
+}
+
+/* 404 page `Go to Home` button */
+.btn {
+	cursor: pointer;
+	color: #fff;
+	border: none;
+}
+
+.btn-primary {
+	background-color: var(--green);
+}
+
+.btn-primary:hover {
+	background-color: var(--green2);
+}
+
+.btn-danger {
+	background-color: red;
+}
+
+.btn-danger:hover {
+	background-color: #ff8080;
+}
+
+a.btn {
+	text-decoration: none;
+	padding: 10px 25px;
+}
+
+.btn-go-home {
+	font-size: larger;
 }
 
 /* Footer */
@@ -152,8 +190,7 @@ label {
 	opacity: 0.65;
 }
 
-
-footer section a{
+footer section a {
 	color: #fff;
 	text-decoration: none;
 }

@@ -1,22 +1,15 @@
 /* chat.css */
 
-.open-chat-btn {
-	background-color: var(--green);
-	border: none;
+.btn-open-chat {
 	padding: 19px;
 	border-radius: 50%;
-	cursor: pointer;
 	position: fixed;
 	bottom: 23px;
 	right: 28px;
 	z-index: 2;
 }
 
-.open-chat-btn:hover {
-	background-color: var(--green2);
-}
-
-.open-chat-btn .fa {
+.btn-open-chat .fa {
 	font-size: 19px;
 	color: white;
 }
@@ -44,6 +37,7 @@
 	background: var(--bg-skin-grey);
 	resize: none;
 	min-height: 200px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .chat-popup .form-container textarea:focus {
@@ -52,24 +46,12 @@
 }
 
 .chat-popup .form-container .btn {
-	color: white;
 	padding: 16px 20px;
-	border: none;
-	cursor: pointer;
 	width: 100%;
 	margin-bottom: 10px;
 	opacity: 0.8;
 }
 
-.chat-popup .form-container .send {
-	background-color: var(--green);
-}
-
-.chat-popup .form-container .cancel {
-	background-color: red;
-}
-
-.chat-popup .form-container .btn:hover,
-.chat-popup .form-container .open-button:hover {
+.chat-popup .form-container .btn:hover {
 	opacity: 1;
 }

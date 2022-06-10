@@ -8,9 +8,9 @@
 </hgroup>
 <nav id="mainNav">
 	<a href="/">Home</a>
-	<a href="#about">About</a>
+	<a href="/about">About</a>
 	<a href="#portfolio">Works</a>
-	<a href="#contact">Contact</a>
+	<a href="/contact">Contact</a>
 	<a href="javascript:void(0);" class="nav-icon" id="toggleMainNav">
 		<i class="fas fa-bars"></i>
 	</a>

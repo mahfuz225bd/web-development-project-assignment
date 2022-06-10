@@ -1,5 +1,7 @@
-<header include-html="./pages/layout/header.html">
-	<!-- Header will be loaded. include-html provided according to root index -->
+<header>
+	<?php
+	require_once './pages/layout/header.php'
+	?>
 </header>
 
 <main>
@@ -9,12 +11,7 @@
 			<p>Ready for Developing</p>
 			<p>Any Website From You</p>
 			<a href="#hire" class="hero-btn">Hire Me</a>
-			<a
-				href="../assets/download/my-cv.pdf"
-				target="_blank"
-				class="hero-btn-alt"
-				>Download CV</a
-			>
+			<a href="../assets/download/my-cv.pdf" target="_blank" class="hero-btn-alt">Download CV</a>
 		</div>
 	</section>
 
@@ -64,7 +61,7 @@
 				<li>Gallery with maximum 6 items</li>
 				<li>No Login/Registration System</li>
 				<li>Charges per extra pages: $10</li>
-				<li>Renew Fee(Yearly): $9.99</li>
+				<li>Renew Fee (Yearly): $9.99</li>
 				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
 				<li class="grey"><a href="#" class="btn-order">Order Now</a></li>
 			</ul>
@@ -80,7 +77,7 @@
 				<li>Gallery with maximum 9 items</li>
 				<li>Login/Registration System Included</li>
 				<li>Charges per extra pages: $10</li>
-				<li>Renew Fee(Yearly): $9.99</li>
+				<li>Renew Fee (Yearly): $9.99</li>
 				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
 				<li class="grey"><a href="#" class="btn-order">Order Now</a></li>
 			</ul>
@@ -96,7 +93,7 @@
 				<li>Unlimited Gallery Items</li>
 				<li>Login/Registration System Included</li>
 				<li>Charges per extra pages: $10</li>
-				<li>Renew Fee(Yearly): $9.99</li>
+				<li>Renew Fee (Yearly): $9.99</li>
 				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
 				<li class="grey"><a href="#" class="btn-order">Order Now</a></li>
 			</ul>
@@ -112,42 +109,26 @@
 	<section class="col-4">
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/1.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/1.jpg" alt="Blank Portfolio" style="width: 100%" />
 
 				<h4>Vaaz Interior</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/2.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/2.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Expert IT Limited</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/3.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/3.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Akib Automobile</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/4.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/4.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Pizzeria Restaurant</h4>
 			</div>
 		</article>
@@ -157,41 +138,25 @@
 	<section id="" class="col-4">
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/5.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/5.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Interior Design Company</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/6.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/6.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Mart Fury Online Fruit Shop</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/7.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/7.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>shopp.my Online Dress Shop</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-				<img
-					src="../assets/img/portfolio/8.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
+				<img src="../assets/img/portfolio/8.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>News Fresh e-Newspaper</h4>
 			</div>
 		</article>
@@ -253,11 +218,7 @@
 		<article>
 			<div class="testimonial">
 				<div class="container active">
-					<img
-						src="../assets/img/avatars/avatar1.png"
-						alt="Abdul Jobbar Mia"
-						style="width: 90px"
-					/>
+					<img src="../assets/img/avatars/avatar1.png" alt="Abdul Jobbar Mia" style="width: 90px" />
 					<p>
 						<span class="name">Abdul Jobbar Mia</span>
 						<span class="title">CEO at Northwind</span>
@@ -265,11 +226,7 @@
 					<p>He saved our time with his beautyful hand solution.</p>
 				</div>
 				<div class="container">
-					<img
-						src="../assets/img/avatars/avatar2.png"
-						alt="Saira Hakim"
-						style="width: 90px"
-					/>
+					<img src="../assets/img/avatars/avatar2.png" alt="Saira Hakim" style="width: 90px" />
 					<p>
 						<span class="name">Saira Hakim</span>
 						<span class="title">Teacher of Blueberry School</span>
@@ -277,11 +234,7 @@
 					<p>Expert person like him we really expect.</p>
 				</div>
 				<div class="container">
-					<img
-						src="../assets/img/avatars/avatar3.png"
-						alt="Mohammad Abdul Halim"
-						style="width: 90px"
-					/>
+					<img src="../assets/img/avatars/avatar3.png" alt="Mohammad Abdul Halim" style="width: 90px" />
 					<p>
 						<span class="name">Mohammad Abdul Halim</span>
 						<span class="title">Works at Self-employed Business</span>
@@ -304,76 +257,16 @@
 			<span class="testimonial-slide-position">1/3</span>
 		</article>
 	</section>
-	<!-- #contact -->
-	<section class="col-2" id="contact">
-		<h3>Contact with Me</h3>
-		<article>
-			<img
-				src="https://via.placeholder.com/575?text=MAP+NOT+AVAILABLE"
-				alt="Map Placeholder"
-				style="width: 100%; max-height: 575px"
-			/>
-		</article>
-		<article class="container">
-			<form action="#" class="contact-form">
-				<label for="fullname" class="required">Full Name</label>
-				<input
-					type="text"
-					id="fullname"
-					name="fullname"
-					placeholder="Your Full Name"
-					required
-				/>
-
-				<label for="email" class="required">Email Address</label>
-				<input
-					type="email"
-					id="email"
-					name="email"
-					placeholder="Your Email Address"
-					required
-				/>
-
-				<label for="phone_number">Phone Number</label>
-				<input
-					type="text"
-					id="phone_number"
-					name="phone_number"
-					placeholder="Your Phone Number"
-				/>
-
-				<label for="subject" class="required">Subject</label>
-				<input
-					type="text"
-					id="subject"
-					name="subject"
-					placeholder="Subject"
-					required
-				/>
-
-				<label for="msg" class="required">Message</label>
-				<textarea
-					id="msg"
-					name="msg"
-					placeholder="Write something.."
-					style="height: 170px"
-					required
-				></textarea>
-				<input type="submit" value="Submit" />
-			</form>
-		</article>
-	</section>
 </main>
 
-<footer include-html="./pages/layout/footer.html">
-	<!-- Footer will be loaded. include-html provided according to root index -->
+<footer>
+	<?php
+	require_once './pages/layout/footer.php'
+	?>
 </footer>
 
 <!-- Chat Button -->
-<button
-	class="open-chat-btn"
-	onclick="document.getElementById('chat').style.display = 'block'"
->
+<button class="btn btn-primary btn-open-chat" onclick="document.getElementById('chat').style.display = 'block'">
 	<i class="fa fa-comment"></i>
 </button>
 
@@ -385,12 +278,8 @@
 		<label for="msg"><b>Message</b></label>
 		<textarea placeholder="Type message.." name="msg" required></textarea>
 
-		<button type="submit" class="btn send">Send</button>
-		<button
-			type="button"
-			class="btn cancel"
-			onclick="document.getElementById('chat').style.display = 'none';"
-		>
+		<button type="submit" class="btn btn-primary">Send</button>
+		<button type="button" class="btn btn-danger" onclick="document.getElementById('chat').style.display = 'none';">
 			Close
 		</button>
 	</form>
@@ -398,23 +287,10 @@
 
 <!-- Sticky Social Media Bar -->
 <div class="social-icon-bar" id="socialBar">
-	<a href="https://facebook.com/mahfuz225bd/" class="facebook" target="_blank"
-		><i class="fab fa-facebook-f"></i
-	></a>
-	<a href="https://twitter.com/mahfuz225bd/" class="twitter" target="_blank"
-		><i class="fab fa-twitter"></i
-	></a>
-	<a href="mailto:mahfuz225bd@gmail.com" class="google" target="_blank"
-		><i class="fab fa-google"></i
-	></a>
-	<a
-		href="https://bd.linkedin.com/in/mahfuz225bd"
-		class="linkedin"
-		target="_blank"
-		><i class="fab fa-linkedin"></i
-	></a>
-	<a href="https://github.com/mahfuz225bd" class="github" target="_blank"
-		><i class="fab fa-github"></i
-	></a>
+	<a href="https://facebook.com/mahfuz225bd/" class="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+	<a href="https://twitter.com/mahfuz225bd/" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+	<a href="mailto:mahfuz225bd@gmail.com" class="google" target="_blank"><i class="fab fa-google"></i></a>
+	<a href="https://bd.linkedin.com/in/mahfuz225bd" class="linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+	<a href="https://github.com/mahfuz225bd" class="github" target="_blank"><i class="fab fa-github"></i></a>
 	<a href="#" class="toggle" id="toggleSocialBar">Follow me</a>
 </div>

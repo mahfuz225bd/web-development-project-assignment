@@ -18,7 +18,11 @@
 	}
 
 	header hgroup h1 {
-		font-size: 1.63em;
+		font-size: 1.2em;
+	}
+
+	header hgroup h2 {
+		font-size: 1em;
 	}
 
 	header nav {
