@@ -1,6 +1,6 @@
 <header>
 	<?php
-	require_once './pages/layout/header.php'
+	require_once 'pages/layout/header.php'
 	?>
 </header>
 
@@ -10,14 +10,8 @@
 			<h1>Hi, I am Mahfuz</h1>
 			<p>Ready for Developing</p>
 			<p>Any Website From You</p>
-			<a href="#hire" class="hero-btn">Hire Me</a>
-<<<<<<< HEAD:pages/index.php
-			<a href="../assets/download/my-cv.pdf" target="_blank" class="hero-btn-alt">Download CV</a>
-=======
-			<a href="./assets/download/my-cv.pdf" target="_blank" class="hero-btn-alt"
-				>Download CV</a
-			>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+			<a href="#hire" class="btn btn-primary btn-hero">Hire Me</a>
+			<a href="../assets/download/my-cv.pdf" target="_blank" class="btn btn-hero-alt">Download CV</a>
 		</div>
 	</section>
 
@@ -69,7 +63,7 @@
 				<li>Charges per extra pages: $10</li>
 				<li>Renew Fee (Yearly): $9.99</li>
 				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
-				<li class="grey"><a href="#" class="btn-order">Order Now</a></li>
+				<li class="grey"><a href="#" class="btn btn-primary btn-order">Order Now</a></li>
 			</ul>
 		</article>
 		<article>
@@ -85,7 +79,7 @@
 				<li>Charges per extra pages: $10</li>
 				<li>Renew Fee (Yearly): $9.99</li>
 				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
-				<li class="grey"><a href="#" class="btn-order">Order Now</a></li>
+				<li class="grey"><a href="#" class="btn btn-primary btn-order">Order Now</a></li>
 			</ul>
 		</article>
 		<article>
@@ -101,7 +95,7 @@
 				<li>Charges per extra pages: $10</li>
 				<li>Renew Fee (Yearly): $9.99</li>
 				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
-				<li class="grey"><a href="#" class="btn-order">Order Now</a></li>
+				<li class="grey"><a href="#" class="btn btn-primary btn-order">Order Now</a></li>
 			</ul>
 		</article>
 	</section>
@@ -116,58 +110,25 @@
 	<section class="col-4">
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/1.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/1.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
-
+				<img src="./assets/img/portfolio/1.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Vaaz Interior</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/2.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/2.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/2.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Expert IT Limited</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/3.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/3.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/3.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Akib Automobile</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/4.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/4.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/4.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Pizzeria Restaurant</h4>
 			</div>
 		</article>
@@ -177,57 +138,25 @@
 	<section id="" class="col-4">
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/5.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/5.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/5.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Interior Design Company</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/6.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/6.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/6.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>Mart Fury Online Fruit Shop</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/7.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/7.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/7.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>shopp.my Online Dress Shop</h4>
 			</div>
 		</article>
 		<article>
 			<div class="portfolio-container">
-<<<<<<< HEAD:pages/index.php
-				<img src="../assets/img/portfolio/8.jpg" alt="Blank Portfolio" style="width: 100%" />
-=======
-				<img
-					src="./assets/img/portfolio/8.jpg"
-					alt="Blank Portfolio"
-					style="width: 100%"
-				/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+				<img src="./assets/img/portfolio/8.jpg" alt="Blank Portfolio" style="width: 100%" />
 				<h4>News Fresh e-Newspaper</h4>
 			</div>
 		</article>
@@ -290,15 +219,7 @@
 		<article>
 			<div class="testimonial">
 				<div class="container active">
-<<<<<<< HEAD:pages/index.php
-					<img src="../assets/img/avatars/avatar1.png" alt="Abdul Jobbar Mia" style="width: 90px" />
-=======
-					<img
-						src="./assets/img/avatars/avatar1.png"
-						alt="Abdul Jobbar Mia"
-						style="width: 90px"
-					/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+					<img src="./assets/img/avatars/avatar1.png" alt="Abdul Jobbar Mia" style="width: 90px" />
 					<p>
 						<span class="name">Abdul Jobbar Mia</span>
 						<span class="title">CEO at Northwind</span>
@@ -306,15 +227,8 @@
 					<p>He saved our time with his beautyful hand solution.</p>
 				</div>
 				<div class="container">
-<<<<<<< HEAD:pages/index.php
 					<img src="../assets/img/avatars/avatar2.png" alt="Saira Hakim" style="width: 90px" />
-=======
-					<img
-						src="./assets/img/avatars/avatar2.png"
-						alt="Saira Hakim"
-						style="width: 90px"
-					/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+					<img src="./assets/img/avatars/avatar2.png" alt="Saira Hakim" style="width: 90px" />
 					<p>
 						<span class="name">Saira Hakim</span>
 						<span class="title">Teacher of Blueberry School</span>
@@ -322,15 +236,8 @@
 					<p>Expert person like him we really expect.</p>
 				</div>
 				<div class="container">
-<<<<<<< HEAD:pages/index.php
 					<img src="../assets/img/avatars/avatar3.png" alt="Mohammad Abdul Halim" style="width: 90px" />
-=======
-					<img
-						src="./assets/img/avatars/avatar3.png"
-						alt="Mohammad Abdul Halim"
-						style="width: 90px"
-					/>
->>>>>>> 7b712b3a544e94398196caa49cf1758ba9542532:pages/index.html
+					<img src="./assets/img/avatars/avatar3.png" alt="Mohammad Abdul Halim" style="width: 90px" />
 					<p>
 						<span class="name">Mohammad Abdul Halim</span>
 						<span class="title">Works at Self-employed Business</span>

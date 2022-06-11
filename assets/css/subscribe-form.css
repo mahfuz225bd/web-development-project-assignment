@@ -7,21 +7,14 @@
 	float: left;
 }
 
-.mc-field-group button {
-	background-color: var(--green);
-	cursor: pointer;
-	color: #fff;
-	border-left: none;
-	width: 45px;
-}
-
-#mc-embedded-subscribe-form button:hover {
-	background-color: var(--green2);
-}
-
 .mc-field-group input,
-button {
+.btn-subscribe {
 	font-size: 17px;
 	padding: 10px;
 	border: 1px solid grey;
+}
+
+.mc-field-group .btn-subscribe {
+	border-left: none;
+	width: 45px;
 }

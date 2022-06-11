@@ -12,7 +12,7 @@
       <p style="font-size:xx-large;">Oh no! Page not Found!</p>
       <p>This link you followed is either outdated, inaccurate, or the server has been instructed not to let you have it.</p>
       <br>
-      <a href="/" class="btn btn-go-home">Go to Home</a>
+      <a href="/" class="btn btn-primary btn-go-home">Go to Home</a>
     </article>
   </section>
 </main>

@@ -30,11 +30,5 @@
 }
 
 .price-table .btn-order {
-	background-color: var(--green);
-	border: none;
-	color: white;
-	padding: 10px 25px;
-	text-align: center;
-	text-decoration: none;
 	font-size: 18px;
 }

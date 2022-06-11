@@ -54,7 +54,7 @@
 							value="Subscribe"
 							name="subscribe"
 							id="mc-embedded-subscribe"
-							class="button"
+							class="btn btn-primary btn-subscribe"
 						>
 							<i class="fas fa-paper-plane"></i>
 						</button>

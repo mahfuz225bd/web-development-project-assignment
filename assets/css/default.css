@@ -1,10 +1,11 @@
 @import url('./variables.css');
 @import url('./responsive.css');
 @import url('./main-nav.css');
+@import url('./button.css');
 @import url('./card.css');
 @import url('./price-table.css');
 @import url('./portfolio.css');
-@import url('./skillbar.css');
+@import url('./skill-bar.css');
 @import url('./testimonial.css');
 @import url('./contact.css');
 @import url('./chat.css');
@@ -126,38 +127,6 @@ main section.first-section article p::first-letter {
 	color: var(--green);
 }
 
-/* 404 page `Go to Home` button */
-.btn {
-	cursor: pointer;
-	color: #fff;
-	border: none;
-}
-
-.btn-primary {
-	background-color: var(--green);
-}
-
-.btn-primary:hover {
-	background-color: var(--green2);
-}
-
-.btn-danger {
-	background-color: red;
-}
-
-.btn-danger:hover {
-	background-color: #ff8080;
-}
-
-a.btn {
-	text-decoration: none;
-	padding: 10px 25px;
-}
-
-.btn-go-home {
-	font-size: larger;
-}
-
 /* Footer */
 
 footer {
@@ -171,8 +140,17 @@ footer h3 {
 	color: #eee;
 }
 
-footer p {
-	opacity: 0.5;
+footer p{
+	opacity: 0.65;
+}
+
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: var(--green);
 }
 
 footer section {
@@ -185,16 +163,6 @@ footer section h3 {
 	text-transform: uppercase;
 }
 
-footer section p,
-label {
-	opacity: 0.65;
-}
-
-footer section a {
-	color: #fff;
-	text-decoration: none;
-}
-
-footer section a:hover {
-	color: var(--green);
+footer section p, label {
+	opacity: .5;
 }

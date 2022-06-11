@@ -29,34 +29,28 @@
 	line-height: 10px;
 }
 
-.hero-image .hero-btn {
-	color: #fff;
-	background: var(--green);
-	text-decoration: none;
+.hero-image .btn-hero {
 	padding: 10px 30px;
 	border-radius: 5px;
 	margin-top: 10px;
 	display: inline-block;
 }
 
-.hero-image .hero-btn:hover {
+.hero-image .btn-hero:hover {
 	background: var(--green2);
-	color: #fff;
 }
 
-.hero-image .hero-btn-alt {
-	color: #fff;
+.hero-image .btn-hero-alt {
 	border: solid 1px var(--green);
-	text-decoration: none;
 	padding: 10px 30px;
 	border-radius: 5px;
 	margin-top: 10px;
 	display: inline-block;
 }
 
-.hero-image .hero-btn-alt:hover {
-	background: #fff;
+.hero-image .btn-hero-alt:hover {
 	color: #000;
+	background: #fff;
 	opacity: 0.75;
 }
 
