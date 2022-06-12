@@ -8,6 +8,7 @@
 	<title>Mahfuz | Full Stack Developer</title>
 
 	<link rel="stylesheet" href="./assets/css/default.css" />
+	<link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 	<link rel="stylesheet" href="./assets/font-awesome/css/all.min.css" />
 </head>
 
