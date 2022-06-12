@@ -14,7 +14,7 @@ $mail->addAddress("thelionk91@gmail.com"); // Add a recipient
 
 $mail->isHTML(true);
 $mail->Subject = "Order from .$name. (Plan#.$id.)";
-$mail->Body    = '==============================<br/> ID: ' . $id . '<br/> Details: <br/>' . $details . '<br/> Name: ' . $name . '<br/>Phone Number: ' . $phoneNumber . '<br/> Note: ' . $note;
+$mail->Body    = '==============================<br/><strong>Plan ID#:</strong> ' . $id . '<br/><strong>Details:</strong><br/>' . $details . '<br/><strong>Name:</strong> ' . $name . '<br/><strong>Phone Number:</strong> ' . $phoneNumber . '<br/><strong>Note:</strong><br/>' . $note;
 
 if (!$mail->send()) {
     echo '<div class="msg-box error">';

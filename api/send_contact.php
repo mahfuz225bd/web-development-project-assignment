@@ -13,7 +13,7 @@ $mail->addAddress("thelionk91@gmail.com"); // Add a recipient
 
 $mail->isHTML(true);
 $mail->Subject = $subject;
-$mail->Body    = $message . '<br/><br/>==============================<br/> Email: ' . $from . '<br/> Name: ' . $name . '<br/>Phone Number: ' . $phoneNumber;
+$mail->Body    = $message . '<br/><br/>==============================<br/><strong>Email:</strong> ' . $from . '<br/><strong>Name:</strong> ' . $name . '<br/> <strong>Phone Number:</strong> ' . $phoneNumber;
 
 if (!$mail->send()) {
     echo '<div class="msg-box error">';

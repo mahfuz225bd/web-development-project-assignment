@@ -17,18 +17,18 @@ $id = $_GET['id'];
         <label for="id">Plan ID#</label>
         <input type="text" id="id" name="id" value="<?= $id ?>" readonly />
 
-        <label for="details">Plan Details</label>
-        <textarea id="details" name="details" style="height: 170px" required readonly>
+        <label for="details" hidden>Plan Details</label>
+        <textarea id="details" name="details" style="height: 170px" required hidden>
         <?php
         switch ($_GET['id']) {
           case '1':
-            echo "$ 9.99\n- Free 5 pages\n- Free 1 Contact Form\n- Hero Image\n- Free 1 Animation\n- Gallery with maximum 6 items\n- No Login/Registration System\n- Charges per extra pages: $10\n- Renew Fee (Yearly): $9.99";
+            echo "$ 9.99<br/>- Free 5 pages<br/>- Free 1 Contact Form<br/>- Hero Image<br/>- Free 1 Animation<br/>- Gallery with maximum 6 items<br/>- No Login/Registration System<br/>- Charges per extra pages: $10<br/>- Renew Fee (Yearly): $9.99";
             break;
           case '2':
-            echo "$ 24.99\n- Free 5 pages\n- Free 1 Contact Form\n- Hero Image / Carousel (Free 4 Slides)\n- Free 3 Animation\n- Gallery with maximum 9 items\n- Login/Registration System Included\n- Charges per extra pages: $10\n- Renew Fee (Yearly): $9.99";
+            echo "$ 24.99<br/>- Free 5 pages<br/>- Free 1 Contact Form<br/>- Hero Image / Carousel (Free 4 Slides)<br/>- Free 3 Animation<br/>- Gallery with maximum 9 items<br/>- Login/Registration System Included<br/>- Charges per extra pages: $10<br/>- Renew Fee (Yearly): $9.99";
             break;
           case '3':
-            echo "$ 49.99\n- Unlimited pages\n- Free 3 Contact Form\n- Hero Image / Carousel (Unlimited Slide)\n- Free 5 Animation\n- Unlimited Gallery Items\n- Login/Registration System Included\n- Charges per extra pages: $10\n- Renew Fee (Yearly): $9.99";
+            echo "$ 49.99<br/>- Unlimited pages<br/>- Free 3 Contact Form<br/>- Hero Image / Carousel (Unlimited Slide)<br/>- Free 5 Animation<br/>- Unlimited Gallery Items<br/>- Login/Registration System Included<br/>- Charges per extra pages: $10<br/>- Renew Fee (Yearly): $9.99";
             break;
           default:
             header('Location: /404');
