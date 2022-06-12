@@ -7,23 +7,23 @@
 	<section class="first-section">
 		<h3>Contact with Me</h3>
 	</section>
-	<section class="col-2" id="contact">
+	<section class="contact-section col-2" id="contact">
 		<article class="container">
 			<form action="#" class="contact-form" id="contactForm">
 				<label for="fullname" class="required">Full Name</label>
-				<input type="text" id="fullname" name="fullname" placeholder="Your Full Name" required />
+				<input type="text" id="fullname" name="fullname" placeholder="Your Full Name" required value="e@e" />
 
 				<label for="email" class="required">Email Address</label>
-				<input type="email" id="email" name="email" placeholder="Your Email Address" required />
+				<input type="email" id="email" name="email" placeholder="Your Email Address" required value="e@e" />
 
 				<label for="phone_number">Phone Number</label>
-				<input type="text" id="phone_number" name="phone_number" placeholder="Your Phone Number" />
+				<input type="text" id="phone_number" name="phone_number" placeholder="Your Phone Number" value="e@e" />
 
 				<label for="subject" class="required">Subject</label>
-				<input type="text" id="subject" name="subject" placeholder="Subject" required />
+				<input type="text" id="subject" name="subject" placeholder="Subject" required value="e@e" />
 
 				<label for="msg" class="required">Message</label>
-				<textarea id="msg" name="msg" placeholder="Write something.." style="height: 170px" required></textarea>
+				<textarea id="msg" name="message" placeholder="Write something.." style="height: 170px" required>Text</textarea>
 				<input type="submit" value="Submit" />
 			</form>
 		</article>

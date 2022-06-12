@@ -42,6 +42,10 @@
 		display: none;
 	}
 
+	header nav.res-show a {
+		display: block;
+	}
+
 	header nav .nav-icon {
 		display: block;
 		position: fixed;

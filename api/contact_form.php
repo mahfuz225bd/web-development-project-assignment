@@ -6,11 +6,11 @@ require '../assets/PHPMailer/src/Exception.php';
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 
 //Variables
-$name = $_GET['name'];
-$from = $_GET['email'];
-$phoneNumber = $_GET['phone'];
-$subject = $_GET['subject'];
-$message = $_GET['message'];
+$name = $_POST['fullname'];
+$from = $_POST['email'];
+$phoneNumber = $_POST['phone_number'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
 //$mail->SMTPDebug = 3;                                 // Enable verbose debug output
 
@@ -30,10 +30,10 @@ $mail->Subject = $subject;
 $mail->Body    = $message . '<br/><br/>==============================<br/> Email: ' . $from . '<br/> Name: ' . $name . '<br/>Phone Number: ' . $phoneNumber;
 
 if (!$mail->send()) {
-    echo '<span style="color: red;">';
+    echo '<div class="msg-box error">';
     echo 'Message could not be sent. <br/>';
-    echo 'Mailer Error: ' . $mail->ErrorInfo . '<a href="/contact">Try again</a>.';
-    echo '</span>';
+    echo 'Mailer Error: ' . $mail->ErrorInfo . ' <a href="/contact">Try again</a>.';
+    echo '</div>';
 } else {
-    echo '<span style="color: green;">Message have been sent.</span>';
+    echo '<div class="msg-box success">Message have been sent.</div>';
 }

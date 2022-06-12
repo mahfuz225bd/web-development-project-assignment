@@ -1,7 +1,22 @@
 /* contact.css */
-#contact .container {
+.contact-section .container {
 	background-color: #f2f2f2;
 	padding: 50px;
+}
+
+.contact-section .msg-box {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.contact-section .msg-box.success {
+	color: green;
+	border: 3px solid green;
+}
+
+.contact-section .msg-box.error {
+	color: crimson;
+	border: 3px solid crimson;
 }
 
 .contact-form input[type='text'],

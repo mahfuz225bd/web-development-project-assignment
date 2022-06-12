@@ -22,6 +22,9 @@
 		case '/about':
 			require_once __DIR__ . './pages/about.php';
 			break;
+		case '/portfolio':
+			header("Location: /#portfolio");
+			break;
 		case '/contact':
 			require_once __DIR__ . './pages/contact.php';
 			break;
