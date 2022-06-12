@@ -34,26 +34,68 @@ document.addEventListener('DOMContentLoaded', () => {
 		});
 	}
 
+	// disableInputs
+	const disableInputs = () => {
+		document.querySelectorAll('input, textarea').forEach((el) => {
+			el.readOnly = true;
+			el.style.cursor = 'not-allowed';
+		});
+		const btnSubmit = document.querySelector('input[type=submit]');
+		btnSubmit.value = 'Sending...';
+		btnSubmit.disabled = true;
+		btnSubmit.style.backgroundColor = 'grey';
+		btnSubmit.style.cursor = 'not-allowed';
+	};
+
+	// Send Order via Email
+	const orderForm = document.forms.orderForm;
+	if (orderForm) {
+		orderForm.addEventListener('submit', (e) => {
+			e.preventDefault();
+
+			// While sending mail
+			disableInputs();
+
+			const data = new URLSearchParams();
+
+			new FormData(e.target).forEach((value, key) => {
+				data.append(key, value);
+			});
+
+			fetch('../../api/send_order.php', {
+				method: 'POST',
+				body: data,
+			})
+				.then((resopnse) => resopnse.text())
+				.then((text) => (e.target.innerHTML = text))
+				.catch((error) => (e.target.innerHTML = error));
+		});
+	}
+
 	// Send Email via Contact Form
 	const contactForm = document.forms.contactForm;
 	if (contactForm) {
 		contactForm.addEventListener('submit', (e) => {
 			e.preventDefault();
 
+			// While sending mail
+			disableInputs();
+
 			const data = new URLSearchParams();
 
-			for (const p of new FormData(e.target)) {
-				data.append(p[0], p[1]);
-			}
+			new FormData(e.target).forEach((value, key) => {
+				data.append(key, value);
+			});
 
-			fetch('../../api/contact_form.php', {
+			fetch('../../api/send_contact.php', {
 				method: 'POST',
 				body: data,
 			})
 				.then((response) => {
 					document.querySelector(
-						'.contact-section .container'
+						'section.contact article.container'
 					).style.backgroundColor = '#fff';
+
 					return response.text();
 				})
 				.then((text) => (e.target.innerHTML = text))

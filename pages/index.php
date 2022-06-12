@@ -62,14 +62,13 @@
 				<li>No Login/Registration System</li>
 				<li>Charges per extra pages: $10</li>
 				<li>Renew Fee (Yearly): $9.99</li>
-				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
-				<li class="grey"><a href="#" class="btn btn-primary btn-order">Order Now</a></li>
+				<li class="grey"><a href="order?id=1" class="btn btn-primary btn-order">Order Now</a></li>
 			</ul>
 		</article>
 		<article>
 			<ul class="price-table">
 				<li class="header" style="background-color: #4caf50">Pro</li>
-				<li class="grey">$ 24.99 / year</li>
+				<li class="grey">$ 24.99</li>
 				<li>Free 5 pages</li>
 				<li>Free 1 Contact Form</li>
 				<li>Hero Image / Carousel (Free 4 Slides)</li>
@@ -78,14 +77,13 @@
 				<li>Login/Registration System Included</li>
 				<li>Charges per extra pages: $10</li>
 				<li>Renew Fee (Yearly): $9.99</li>
-				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
-				<li class="grey"><a href="#" class="btn btn-primary btn-order">Order Now</a></li>
+				<li class="grey"><a href="order?id=2" class="btn btn-primary btn-order">Order Now</a></li>
 			</ul>
 		</article>
 		<article>
 			<ul class="price-table">
 				<li class="header">Premium</li>
-				<li class="grey">$ 49.99 / year</li>
+				<li class="grey">$ 49.99</li>
 				<li>Unlimited pages</li>
 				<li>Free 3 Contact Form</li>
 				<li>Hero Image / Carousel (Unlimited Slide)</li>
@@ -94,8 +92,7 @@
 				<li>Login/Registration System Included</li>
 				<li>Charges per extra pages: $10</li>
 				<li>Renew Fee (Yearly): $9.99</li>
-				<li>For more <a href="mailto:mahfuz225bd@gmail.com">contact me</a></li>
-				<li class="grey"><a href="#" class="btn btn-primary btn-order">Order Now</a></li>
+				<li class="grey"><a href="order?id=3" class="btn btn-primary btn-order">Order Now</a></li>
 			</ul>
 		</article>
 	</section>
@@ -267,26 +264,7 @@
 	require_once './pages/layout/footer.php'
 	?>
 </footer>
-
-<!-- Chat Button -->
-<button class="btn btn-primary btn-open-chat" onclick="document.getElementById('chat').style.display = 'block'">
-	<i class="fa fa-comment"></i>
-</button>
-
-<!-- Chat PopUp -->
-<div class="chat-popup" id="chat">
-	<form action="#" class="form-container">
-		<h1>Chat</h1>
-
-		<label for="msg"><b>Message</b></label>
-		<textarea placeholder="Type message.." name="msg" required></textarea>
-
-		<button type="submit" class="btn btn-primary">Send</button>
-		<button type="button" class="btn btn-danger" onclick="document.getElementById('chat').style.display = 'none';">
-			Close
-		</button>
-	</form>
-</div>
+<?php require_once './pages/views/chat.php' ?>
 
 <!-- Sticky Social Media Bar -->
 <div class="social-icon-bar" id="socialBar">

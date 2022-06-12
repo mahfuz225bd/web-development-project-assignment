@@ -1,28 +1,24 @@
-/* contact.css */
-.contact-section .container {
-	background-color: #f2f2f2;
-	padding: 50px;
-}
+/* form.css */
 
-.contact-section .msg-box {
+form .msg-box {
 	padding: 10px;
 	margin-bottom: 10px;
 }
 
-.contact-section .msg-box.success {
+form .msg-box.success {
 	color: green;
 	border: 3px solid green;
 }
 
-.contact-section .msg-box.error {
+form .msg-box.error {
 	color: crimson;
 	border: 3px solid crimson;
 }
 
-.contact-form input[type='text'],
-.contact-form input[type='email'],
-.contact-form select,
-.contact-form textarea {
+form input[type='text'],
+form input[type='email'],
+form select,
+form textarea {
 	width: 100%;
 	padding: 12px;
 	border: 1px solid #ccc;
@@ -32,7 +28,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-.contact-form input[type='submit'] {
+form input[type='submit'] {
 	background-color: var(--green);
 	color: white;
 	padding: 12px 20px;
@@ -40,13 +36,18 @@
 	cursor: pointer;
 }
 
-.contact-form input[type='submit']:hover {
+form input[type='submit']:hover {
 	background-color: var(--green2);
 }
 
-.contact-form .required::after {
+form .required::after {
 	color: red;
 	content: ' *';
+}
+
+section.contact article.container {
+	background-color: #f2f2f2;
+	padding: 25px;
 }
 
 iframe.map {

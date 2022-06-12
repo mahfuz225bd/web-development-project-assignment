@@ -2,12 +2,12 @@
 @import url('./responsive.css');
 @import url('./main-nav.css');
 @import url('./button.css');
+@import url('./form.css');
 @import url('./card.css');
 @import url('./price-table.css');
 @import url('./portfolio.css');
 @import url('./skill-bar.css');
 @import url('./testimonial.css');
-@import url('./contact.css');
 @import url('./chat.css');
 @import url('./social-linkbar.css');
 @import url('./subscribe-form.css');
