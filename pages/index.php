@@ -7,9 +7,8 @@
 <main>
 	<section class="hero-image">
 		<div class="hero-text">
-			<h1>Hi, I am Mahfuz</h1>
-			<p>Ready for Developing</p>
-			<p>Any Website From You</p>
+			<h1>I'm Ready</h1>
+			<p>For Developing Website for You</p>
 			<a href="#hire" class="btn btn-primary btn-hero">Hire Me</a>
 			<a href="../assets/download/my-cv.pdf" target="_blank" class="btn btn-hero-alt">Download CV</a>
 		</div>
