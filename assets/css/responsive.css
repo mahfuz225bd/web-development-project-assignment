@@ -59,16 +59,16 @@
 		margin: 5px 5px 5px 5px;
 	}
 
-	.social-icon-bar a:not(.toggle) {
+	.social-icon-bar a:not(a.toggle) {
 		display: none;
 	}
-	.social-icon-bar .toggle {
+	.social-icon-bar a.toggle {
 		display: block;
 	}
-	.social-icon-bar.res-show a {
+	.social-icon-bar.res-show a:not(a.toggle) {
 		display: block;
 	}
-	.social-icon-bar .toggle {
+	.social-icon-bar a.toggle {
 		writing-mode: vertical-rl;
 		text-decoration: none;
 		background-color: #000;

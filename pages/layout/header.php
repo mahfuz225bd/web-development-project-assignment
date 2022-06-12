@@ -1,5 +1,5 @@
 <hgroup>
-	<a href="#index">
+	<a href="/">
 		<h1>Muhammad Sultan Al Mahfuz</h1>
 		<h2>
 			<!-- Text typing dynamically with JS -->

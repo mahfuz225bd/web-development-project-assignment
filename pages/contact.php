@@ -9,7 +9,7 @@
 	</section>
 	<section class="col-2" id="contact">
 		<article class="container">
-			<form action="#" class="contact-form">
+			<form action="#" class="contact-form" id="contactForm">
 				<label for="fullname" class="required">Full Name</label>
 				<input type="text" id="fullname" name="fullname" placeholder="Your Full Name" required />
 
