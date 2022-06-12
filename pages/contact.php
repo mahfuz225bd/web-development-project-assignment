@@ -28,7 +28,8 @@
 			</form>
 		</article>
 		<article>
-			<img src="https://via.placeholder.com/575?text=MAP+NOT+AVAILABLE" alt="Map Placeholder" style="width: 100%; max-height: 640px;" />
+			<!-- <img src="https://via.placeholder.com/575?text=MAP+NOT+AVAILABLE" alt="Map Placeholder" style="width: 100%; max-height: 640px;" /> -->
+			<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.0547030561147!2d90.3658509291727!3d23.816653742777152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c12c01aea7ed%3A0xbe11eb37061620e1!2sAl%20Modina%20Jewellers!5e0!3m2!1sen!2sbd!4v1655036673037!5m2!1sen!2sbd" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		</article>
 	</section>
 </main>

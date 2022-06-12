@@ -48,3 +48,17 @@
 	color: red;
 	content: ' *';
 }
+
+iframe.map {
+	display: block;
+	/* The 90vw means 90%, use any width you like */
+	width: 80vw;
+	/* Calculate the height to maintain original shape,
+			but match vw number to that above */
+	height: calc(0.75 * 90vw);
+	/* Optionally, set maximum height and width */
+	max-width: 920px;
+	max-height: 645px;
+	margin-left: auto;
+	margin-right: auto;
+}
