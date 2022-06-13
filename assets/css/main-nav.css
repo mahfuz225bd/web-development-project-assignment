@@ -25,4 +25,5 @@ header nav a:hover {
 
 nav .nav-icon {
 	display: none;
+	opacity: 0.4;
 }

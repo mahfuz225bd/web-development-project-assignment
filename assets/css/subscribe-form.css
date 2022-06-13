@@ -2,12 +2,14 @@
 	margin-top: -14px;
 }
 
-.mc-field-group input {
+.mc-field-group input.email {
 	background-color: #fff;
 	float: left;
+	width: initial;
+	margin: initial;
 }
 
-.mc-field-group input,
+.mc-field-group input.email,
 .btn-subscribe {
 	font-size: 17px;
 	padding: 10px;
