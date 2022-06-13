@@ -48,7 +48,7 @@
 
 	header nav .nav-icon {
 		display: block;
-		position: fixed;
+		position: absolute;
 		top: 23px;
 		right: 28px;
 		width: auto;

@@ -12,8 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		if (mainNav.className === '') {
 			mainNav.className = 'res-show';
+			toggleMainNav.innerHTML = '<i class="fas fa-times"></i>';
 		} else {
 			mainNav.className = '';
+			toggleMainNav.innerHTML = '<i class="fas fa-bars"></i>';
 		}
 	});
 
