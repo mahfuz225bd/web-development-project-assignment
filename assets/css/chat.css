@@ -29,17 +29,22 @@
 	background-color: white;
 }
 
+.chat-popup .form-container input,
 .chat-popup .form-container textarea {
 	width: 100%;
-	padding: 15px;
-	margin: 5px 0 22px 0;
+	/* margin: 5px 0 22px 0; */
+	margin: 2px 0 2px 0;
 	border: none;
 	background: var(--bg-skin-grey);
 	resize: none;
-	min-height: 200px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.chat-popup .form-container textarea {
+	min-height: 200px;
+}
+
+.chat-popup .form-container input:focus,
 .chat-popup .form-container textarea:focus {
 	background-color: #ddd;
 	outline: none;
