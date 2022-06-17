@@ -29,12 +29,12 @@ header {
 	background-color: var(--bg-skin-grey);
 	padding: 20px;
 	overflow: hidden;
+	width: 100%;
 }
 
 header.sticky {
 	position: fixed;
 	top: 0;
-	width: 100%;
 	z-index: 2;
 }
 
@@ -73,6 +73,7 @@ header hgroup h2::after {
 
 main {
 	padding: 109px repeat(3, 20px);
+	width: 100%;
 }
 
 section h3 {
@@ -131,6 +132,7 @@ main section.first-section article p::first-letter {
 
 footer {
 	background-color: #000;
+	width: 100%;
 	text-align: center;
 	padding: 10px;
 	color: #fff;
