@@ -142,17 +142,20 @@ footer h3 {
 	color: #eee;
 }
 
-footer p {
+footer p.copyright-text {
 	opacity: 0.65;
 }
 
 footer a {
 	color: #fff;
-	text-decoration: none;
 }
 
 footer a:hover {
 	color: var(--green);
+}
+
+footer section address {
+	font-style: normal;
 }
 
 footer section {
@@ -166,6 +169,7 @@ footer section h3 {
 }
 
 footer section p,
-footer section label {
+footer section label,
+footer section address {
 	opacity: 0.5;
 }
