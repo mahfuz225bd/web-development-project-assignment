@@ -5,6 +5,8 @@
 			I am a student of CST/5/2/A. I developed this website for final exam of
 			Web Development Project (66654).
 			<br />
+			<a href="https://github.com/mahfuz225bd/web_development_project_assignment" target="_blank">Source</a> of this project.
+			<br />
 			<br />
 			Name: Muhammad Sultan Al Mahfuz <br />
 			Roll: 457214
@@ -16,13 +18,13 @@
 	</article>
 	<article>
 		<h3>Contact</h3>
-		<p>Section-11, Block-C, Road-10, Lane-03,
+		<address>Section-11, Block-C, Road-10, Lane-03,
 			House-08, Mirpur, Dhaka-1216
 			<br>
 			<a href="mailto:mahfuz225bd@gmail.com">mahfuz225bd@gmail.com</a>
 			<br>
 			+880-1714-123-381
-		</p>
+		</address>
 
 	</article>
 	<article>
