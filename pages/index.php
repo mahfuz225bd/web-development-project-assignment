@@ -214,7 +214,7 @@
 		<h3>Some Quotes of People about Me</h3>
 		<article>
 			<div class="testimonial">
-				<div class="container active">
+				<div class="container">
 					<img src="./assets/img/avatars/avatar1.png" alt="Abdul Jobbar Mia" style="width: 90px" />
 					<p>
 						<span class="name">Abdul Jobbar Mia</span>
@@ -223,7 +223,6 @@
 					<p>He saved our time with his beautyful hand solution.</p>
 				</div>
 				<div class="container">
-					<img src="../assets/img/avatars/avatar2.png" alt="Saira Hakim" style="width: 90px" />
 					<img src="./assets/img/avatars/avatar2.png" alt="Saira Hakim" style="width: 90px" />
 					<p>
 						<span class="name">Saira Hakim</span>
@@ -232,7 +231,6 @@
 					<p>Expert person like him we really expect.</p>
 				</div>
 				<div class="container">
-					<img src="../assets/img/avatars/avatar3.png" alt="Mohammad Abdul Halim" style="width: 90px" />
 					<img src="./assets/img/avatars/avatar3.png" alt="Mohammad Abdul Halim" style="width: 90px" />
 					<p>
 						<span class="name">Mohammad Abdul Halim</span>
@@ -253,7 +251,7 @@
 					text-align: center;
 				}
 			</style>
-			<span class="testimonial-slide-position">1/3</span>
+			<span class="testimonial-slide-position"><output id="testimonialSlideNo">1</output>/3</span>
 		</article>
 	</section>
 </main>

@@ -1,4 +1,5 @@
 import { animatedTypingH2 } from './animatedTypingH2.js';
+import './navigateTestimonialSlider.js';
 
 document.addEventListener('DOMContentLoaded', () => {
 	// Animated typing
