@@ -8,7 +8,9 @@ const prev = document.querySelector('.testimonial a.prev');
 const testimonialSlideNo = document.getElementById('testimonialSlideNo');
 
 // Active testimonials[index]
-testimonials[index].classList.add('active');
+if (testimonials[index]) {
+	testimonials[index].classList.add('active');
+}
 
 // Function: activeTestimonialSlide
 const activeTestimonialSlide = (index) => {
@@ -22,26 +24,28 @@ const activeTestimonialSlide = (index) => {
 	testimonials[index].classList.add('active');
 };
 
-console.log(testimonials);
+if (next) {
+	next.addEventListener('click', () => {
+		if (index < 2) {
+			index++;
+		} else {
+			index = 0;
+		}
 
-next.addEventListener('click', () => {
-	if (index < 2) {
-		index++;
-	} else {
-		index = 0;
-	}
+		activeTestimonialSlide(index);
+		testimonialSlideNo.innerText = index + 1;
+	});
+}
 
-	activeTestimonialSlide(index);
-	testimonialSlideNo.innerText = index + 1;
-});
+if (prev) {
+	prev.addEventListener('click', () => {
+		if (index > 0) {
+			index--;
+		} else {
+			index = 2;
+		}
 
-prev.addEventListener('click', () => {
-	if (index > 0) {
-		index--;
-	} else {
-		index = 2;
-	}
-
-	activeTestimonialSlide(index);
-	testimonialSlideNo.innerText = index + 1;
-});
+		activeTestimonialSlide(index);
+		testimonialSlideNo.innerText = index + 1;
+	});
+}
