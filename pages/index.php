@@ -105,56 +105,104 @@
 	<!-- img src provided according to root index -->
 	<section class="col-4">
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/1.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>Vaaz Interior</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=1">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/1.jpg" alt="Vaaz Interior" style="width: 100%" />
+					<h4>Vaaz Interior</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/2.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>Expert IT Limited</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=2">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/2.jpg" alt="Expert IT Limited" style="width: 100%" />
+					<h4>Expert IT Limited</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/3.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>Akib Automobile</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=3">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/3.jpg" alt="Akib Automobile" style="width: 100%" />
+					<h4>Akib Automobile</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/4.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>Pizzeria Restaurant</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=4">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/4.jpg" alt="Pizzeria Restaurant" style="width: 100%" />
+					<h4>Pizzeria Restaurant</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 	</section>
 
 	<!-- Portfolio Gallery - Section II -->
 	<section id="" class="col-4">
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/5.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>Interior Design Company</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=5">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/5.jpg" alt="Interior Design Company" style="width: 100%" />
+					<h4>Interior Design Company</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/6.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>Mart Fury Online Fruit Shop</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=6">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/6.jpg" alt="Mart Fury Online Fruit Shop" style="width: 100%" />
+					<h4>Mart Fury Online Fruit Shop</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/7.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>shopp.my Online Dress Shop</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=7">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/7.jpg" alt="shopp.my Online Dress Shop" style="width: 100%" />
+					<h4>shopp.my Online Dress Shop</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 		<article>
-			<div class="portfolio-container">
-				<img src="./assets/img/portfolio/8.jpg" alt="Blank Portfolio" style="width: 100%" />
-				<h4>News Fresh e-Newspaper</h4>
-			</div>
+			<a class="portfolio-container-link" href="portfolio?id=8">
+				<div class="portfolio-container">
+					<img src="./assets/img/portfolio/8.jpg" alt="News Fresh e-Newspaper" style="width: 100%" />
+					<h4>News Fresh e-Newspaper</h4>
+					<button class="btn btn-primary">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						View Details
+					</button>
+				</div>
+			</a>
 		</article>
 	</section>
 

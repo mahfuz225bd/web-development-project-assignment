@@ -26,6 +26,9 @@
 		case '/portfolio':
 			header("Location: /#portfolio");
 			break;
+		case preg_match("/portfolio\?id=\d/", $request) && $request:
+			require_once __DIR__ . './pages/portfolio.php';
+			break;
 		case '/contact':
 			require_once __DIR__ . './pages/contact.php';
 			break;
