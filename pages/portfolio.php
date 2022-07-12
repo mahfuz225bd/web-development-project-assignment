@@ -16,7 +16,7 @@ function show_portfilio($id, $title, $thumbnail, $description, $link)
     <td>' . $title . '</td>
   </tr>
   <tr>
-    <td>Description</td>
+    <td style="vertical-align:top;">Description</td>
     <td>' . $description . '</td>
   </tr>
   <tr>
