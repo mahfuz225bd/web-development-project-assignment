@@ -173,9 +173,3 @@ footer section label,
 footer section address {
 	opacity: 0.5;
 }
-
-@media screen and (min-width: 600px) {
-	footer section {
-		margin: 10px 200px 10px 200px;
-	}
-}
