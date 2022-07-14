@@ -161,7 +161,6 @@ footer section address {
 
 footer section {
 	text-align: left;
-	margin: 10px 200px 10px 200px;
 }
 
 footer section h3 {
@@ -173,4 +172,10 @@ footer section p,
 footer section label,
 footer section address {
 	opacity: 0.5;
+}
+
+@media screen and (min-width: 600px) {
+	footer section {
+		margin: 10px 200px 10px 200px;
+	}
 }
