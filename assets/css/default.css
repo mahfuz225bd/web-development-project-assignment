@@ -78,8 +78,7 @@ main {
 	width: 100%;
 }
 
-section h3,
-section h4 {
+section h3 {
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -131,7 +130,8 @@ main section.first-section article p::first-letter {
 	color: var(--green);
 }
 
-div.center, article.center {
+div.center,
+article.center {
 	display: flex;
 	justify-content: center;
 }

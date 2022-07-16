@@ -8,6 +8,11 @@
     <h3>About Me</h3>
   </section>
   <style>
+    section h4 {
+      text-align: center;
+      font-size: 1.5em;
+    }
+
     ul {
       margin-top: -15px;
     }
