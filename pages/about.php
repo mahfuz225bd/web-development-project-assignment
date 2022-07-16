@@ -109,7 +109,7 @@
           <div class="content">
             <h5 class="title">Secondary School Certificate (SSC)</h5>
             <span class="datetime"><i class="fa fa-calendar" aria-hidden="true"></i> Feb 2019</span>
-            <p>At Mirpur Bangla Higher Secondary School, Mirpur, Dhaka-1216.</p>
+            <p>Passed from Mirpur Bangla Higher Secondary School, Mirpur, Dhaka-1216.</p>
           </div>
         </div>
       </div>
