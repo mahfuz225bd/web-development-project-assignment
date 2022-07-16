@@ -36,7 +36,7 @@ function show_portfilio($id, $title, $thumbnail, $description, $link)
     <h3>&nbsp;</h3>
   </section>
   <section class="col-1">
-    <article style="display:flex; justify-content:center;">
+    <article class="center">
       <?php
       $dummyDescription = "Lorem ipsum dolor sit amet consectetur adipisicing elit. In labore rerum, cupiditate repellendus voluptatibus possimus quos sequi nemo molestias similique voluptates minus, aut fugiat molestiae soluta, cum vel nihil debitis commodi velit ducimus doloremque! Nesciunt, fugiat quis tenetur ullam itaque architecto laborum doloribus laboriosam, facere sint minima velit quam repellendus?";
       switch ($id) {

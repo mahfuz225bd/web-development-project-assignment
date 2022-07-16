@@ -12,8 +12,8 @@ $id = $_GET['id'];
     <h3>Checkout Order</h3>
   </section>
   <section class="col-1">
-    <article>
-      <form id="orderForm" style="width: 600px; margin: 0 auto;">
+    <article class="center">
+      <form id="orderForm" style="width: 600px;">
         <label for="id">Plan ID#</label>
         <input type="text" id="id" name="id" value="<?= $id ?>" readonly />
 

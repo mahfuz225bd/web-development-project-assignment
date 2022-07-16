@@ -78,7 +78,8 @@ main {
 	width: 100%;
 }
 
-section h3 {
+section h3,
+section h4 {
 	text-align: center;
 	font-size: 1.5em;
 }
@@ -128,6 +129,11 @@ section a:hover:not(.btn) {
 main section.first-section article p::first-letter {
 	font-size: x-large;
 	color: var(--green);
+}
+
+div.center, article.center {
+	display: flex;
+	justify-content: center;
 }
 
 /* Footer */

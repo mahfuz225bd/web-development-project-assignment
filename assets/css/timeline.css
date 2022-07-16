@@ -8,6 +8,7 @@
 .timeline .title {
 	font-size: larger;
 	margin: 0 0 5px 0;
+	text-align: left;
 }
 
 .timeline .subtitle {

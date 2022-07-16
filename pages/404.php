@@ -8,7 +8,7 @@
     <h3>&nbsp;</h3>
   </section>
   <section class="col-1">
-    <article style="text-align: center; margin: 97px auto 145px auto">
+    <article class="center" style="margin: 97px auto 145px auto">
       <p style="font-size:xx-large;">Oh no! Page not Found!</p>
       <p>This link you followed is either outdated, inaccurate, or the server has been instructed not to let you have it.</p>
       <br>
