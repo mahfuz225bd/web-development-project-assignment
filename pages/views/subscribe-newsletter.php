@@ -8,7 +8,7 @@
         <br />
         <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" />
         <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-subscribe">
-          <i class="fas fa-paper-plane"></i>
+          <i class="fas fa-paper-plane" aria-hidden="true"></i>
         </button>
       </div>
       <div id="mce-responses" class="clear foot">

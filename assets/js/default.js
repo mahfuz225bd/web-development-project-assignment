@@ -105,4 +105,16 @@ document.addEventListener('DOMContentLoaded', () => {
 				.catch((error) => (e.target.innerHTML = error));
 		});
 	}
+
+	// // window: onResize
+	// window.addEventListener('resize', () => {
+	// 	// @media screen and (max-width: 600px)
+	// 	if (window.matchMedia('(max-width: 600px)').matches) {
+	// 		document.querySelectorAll('.timeline .container').forEach((each) => {
+	// 			console.log(Array(each.classList).includes('left'));
+	// 			each.classList.remove('left');
+	// 			each.classList.add('right');
+	// 		});
+	// 	}
+	// });
 });

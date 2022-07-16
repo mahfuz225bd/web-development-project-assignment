@@ -18,28 +18,28 @@
 	<section class="col-4">
 		<article>
 			<div class="card">
-				<p><i class="fa fa-user"></i></p>
+				<p><i class="fa fa-user" aria-hidden="true"></i></p>
 				<h3>5+</h3>
 				<p>Partners</p>
 			</div>
 		</article>
 		<article>
 			<div class="card">
-				<p><i class="fa fa-check"></i></p>
+				<p><i class="fa fa-check" aria-hidden="true"></i></p>
 				<h3>55+</h3>
 				<p>Projects</p>
 			</div>
 		</article>
 		<article>
 			<div class="card">
-				<p><i class="fa fa-thumbs-up"></i></p>
+				<p><i class="fa fa-thumbs-up" aria-hidden="true"></i></p>
 				<h3>100+</h3>
 				<p>Satisfied Clients</p>
 			</div>
 		</article>
 		<article>
 			<div class="card">
-				<p><i class="fa fa-coffee"></i></p>
+				<p><i class="fa fa-coffee" aria-hidden="true"></i></p>
 				<h3>100+</h3>
 				<p>Meetings</p>
 			</div>

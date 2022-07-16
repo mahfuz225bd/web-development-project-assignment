@@ -12,6 +12,6 @@
 	<a href="/portfolio">Works</a>
 	<a href="/contact">Contact</a>
 	<a href="javascript:void(0);" class="nav-icon" id="toggleMainNav">
-		<i class="fas fa-bars"></i>
+		<i class="fas fa-bars" aria-hidden="true"></i>
 	</a>
 </nav>

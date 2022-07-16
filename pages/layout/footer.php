@@ -5,6 +5,8 @@
 			I am a student of CST/5/2/A. I developed this website for final exam of
 			Web Development Project (66654).
 			<br />
+			Following this website, given information are not 100% true. Some fake and dummy information included to fulfill contents.
+			<br />
 			<a href="https://github.com/mahfuz225bd/web_development_project_assignment" target="_blank">Source Code</a> of this project.
 			<br />
 			<br />

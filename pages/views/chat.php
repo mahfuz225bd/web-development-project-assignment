@@ -1,6 +1,6 @@
 <!-- Chat Button -->
 <button class="btn btn-primary btn-open-chat" onclick="document.getElementById('chat').style.display = 'block'">
-  <i class="fa fa-comment"></i>
+  <i class="fa fa-comment" aria-hidden="true"></i>
 </button>
 
 <!-- Chat PopUp -->

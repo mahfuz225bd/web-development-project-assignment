@@ -63,6 +63,7 @@
 		margin: 5px;
 	}
 
+	/* Social LinkBar */
 	.social-icon-bar a:not(a.toggle) {
 		display: none;
 	}
@@ -80,6 +81,7 @@
 		padding: 10px 3px 10px 0px;
 	}
 
+	/* Testimonial */
 	.testimonial .container {
 		text-align: center;
 		padding: 16px;
@@ -93,6 +95,35 @@
 	}
 	.testimonial .container p {
 		text-align: left;
+	}
+
+	/* Timeline */
+	/* Place the timeline to the left */
+	.timeline::after {
+		left: 31px;
+	}
+	/* Full-width containers */
+	.timeline .container {
+		width: 100%;
+		padding-left: 70px;
+		padding-right: 25px;
+	}
+	/* Make sure that all arrows are pointing leftwards */
+	.timeline .container.left::before,
+	.timeline .container.right::before {
+		left: 60px;
+		border: medium solid white;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent white transparent transparent;
+	}
+	/* Make sure all circles are at the same spot */
+	.timeline .container.left::after,
+	.timeline .container.right::after {
+		left: 15px;
+	}
+	/* Make all right containers behave like the left ones */
+	.timeline .container.right {
+		left: 0%;
 	}
 }
 
