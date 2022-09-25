@@ -9,7 +9,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 $mail->setFrom($name, $from);
-$mail->addAddress("thelionk91@gmail.com"); // Add a recipient
+$mail->addAddress("mahfuz225bd@gmail.com"); // Add a recipient
 
 $mail->isHTML(true);
 $mail->Subject = $subject;
@@ -21,5 +21,5 @@ if (!$mail->send()) {
     echo 'Mailer Error: ' . $mail->ErrorInfo . ' <a href="/contact">Try again</a>.';
     echo '</div>';
 } else {
-    echo '<div class="msg-box success">Message has been sent.</div>';
+    echo '<div class="msg-box success">Message has been sent successfully. Go to <a href="/">Home page</a>.</div>';
 }

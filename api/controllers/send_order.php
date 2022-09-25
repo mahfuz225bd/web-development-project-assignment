@@ -10,7 +10,7 @@ $phoneNumber = $_POST['phone_number'];
 $note = $_POST['note'];
 
 $mail->setFrom($name, $from);
-$mail->addAddress("thelionk91@gmail.com"); // Add a recipient
+$mail->addAddress("mahfuz225bd@gmail.com"); // Add a recipient
 
 $mail->isHTML(true);
 $mail->Subject = "Order from .$name. (Plan#.$id.)";
@@ -22,5 +22,5 @@ if (!$mail->send()) {
     echo 'Mailer Error: ' . $mail->ErrorInfo;
     echo '</div>';
 } else {
-    echo '<div class="msg-box success">Order has been sent successfully.</div>';
+    echo '<div class="msg-box success">Order has been sent successfully. Go to <a href="/">Home page</a>.</div>';
 }

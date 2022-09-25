@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				data.append(key, value);
 			});
 
-			fetch('../../controllers/send_order.php', {
+			fetch('../../api/controllers/send_order.php', {
 				method: 'POST',
 				body: data,
 			})
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				data.append(key, value);
 			});
 
-			fetch('../../controllers/send_contact.php', {
+			fetch('../../api/controllers/send_contact.php', {
 				method: 'POST',
 				body: data,
 			})
