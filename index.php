@@ -9,7 +9,7 @@
 
 	<link rel="stylesheet" href="./assets/css/default.css" />
 	<link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
-	<link rel="stylesheet" href="./assets/font-awesome/css/all.min.css" />
+	<link rel="stylesheet" href="./assets/vendor/font-awesome/css/all.min.css" />
 </head>
 
 <body>

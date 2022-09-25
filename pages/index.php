@@ -309,7 +309,7 @@
 	require_once './pages/layout/footer.php'
 	?>
 </footer>
-<?php require_once './pages/views/chat.php' ?>
+<?php require_once './pages/contents/chat.php' ?>
 
 <!-- Sticky Social Media Bar -->
 <div class="social-icon-bar" id="socialBar">

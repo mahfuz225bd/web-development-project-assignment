@@ -32,7 +32,7 @@
 	</article>
 	<article>
 		<h3>Subscribe</h3>
-		<?php require_once './pages/views/subscribe-newsletter.php' ?>
+		<?php require_once './pages/contents/subscribe-newsletter.php' ?>
 	</article>
 </section>
 <p class="copyright-text">Copyright &copy; 2022. All right reserved.</p>
