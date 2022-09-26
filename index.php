@@ -35,6 +35,9 @@
 		case preg_match("/order\?id=\d/", $request) && $request:
 			require_once __DIR__ . './pages/order.php';
 			break;
+		case '/test/test1':
+			require_once __DIR__ . './api/views/index.php';
+			break;
 		default:
 			http_response_code(404);
 			require_once __DIR__ . './pages/404.php';

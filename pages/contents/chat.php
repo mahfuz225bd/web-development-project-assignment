@@ -1,11 +1,11 @@
 <!-- Chat Button -->
-<button class="btn btn-primary btn-open-chat" onclick="document.getElementById('chat').style.display = 'block'">
+<button class="btn btn-primary btn-open-chat" onclick="document.querySelector('.chat-popup').style.display = 'block'">
   <i class="fa fa-comment" aria-hidden="true"></i>
 </button>
 
 <!-- Chat PopUp -->
-<div class="chat-popup" id="chat">
-  <form action="#" class="form-container">
+<div class="chat-popup">
+  <form action="#" class="form-container" id="chat">
     <h1>Chat</h1>
 
     <input type="text" name="name" placeholder="Name *" autocomplete="off" required />
@@ -17,7 +17,7 @@
     <textarea placeholder="Type message.." name="msg" required></textarea>
 
     <button type="submit" class="btn btn-primary">Send</button>
-    <button type="button" class="btn btn-danger" onclick="document.getElementById('chat').style.display = 'none';">
+    <button type="button" class="btn btn-danger" onclick="document.querySelector('.chat-popup').style.display = 'none';">
       Close
     </button>
   </form>

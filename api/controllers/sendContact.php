@@ -1,5 +1,5 @@
 <?php
-require_once './email.config.php';
+require_once __DIR__ . '/api/controllers/email.config.php';
 
 // Variables
 $name = $_POST['fullname'];

@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				data.append(key, value);
 			});
 
-			fetch('../../api/controllers/send_order.php', {
+			fetch('../../api/controllers/sendOrder.php', {
 				method: 'POST',
 				body: data,
 			})
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
 				data.append(key, value);
 			});
 
-			fetch('../../api/controllers/send_contact.php', {
+			fetch('../../api/controllers/sendContact.php', {
 				method: 'POST',
 				body: data,
 			})
@@ -98,6 +98,35 @@ document.addEventListener('DOMContentLoaded', () => {
 					document.querySelector(
 						'section.contact article.container'
 					).style.backgroundColor = '#fff';
+
+					return response.text();
+				})
+				.then((text) => (e.target.innerHTML = text))
+				.catch((error) => (e.target.innerHTML = error));
+		});
+	}
+
+	// onSubmit: Create a chatbot user
+	const chat = document.forms.chat;
+
+	if (chat) {
+		chat.addEventListener('submit', (e) => {
+			e.preventDefault();
+
+			// While $_POST is being processed
+
+			const data = new URLSearchParams();
+
+			new FormData(e.target).forEach((value, key) => {
+				data.append(key, value);
+			});
+
+			fetch('../../api/models/userLogin.php', {
+				method: 'POST',
+				body: data,
+			})
+				.then((response) => {
+					document.querySelector('#chat').style.backgroundColor = '#fff';
 
 					return response.text();
 				})

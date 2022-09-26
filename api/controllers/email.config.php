@@ -1,7 +1,8 @@
 <?php
-require '../../assets/vendor/PHPMailer/src/PHPMailer.php';
-require '../../assets/vendor/PHPMailer/src/SMTP.php';
-require '../../assets/vendor/PHPMailer/src/Exception.php';
+
+require_once '../../assets/vendor/PHPMailer/src/PHPMailer.php';
+require_once '../../assets/vendor/PHPMailer/src/SMTP.php';
+require_once '../../assets/vendor/PHPMailer/src/Exception.php';
 
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 
