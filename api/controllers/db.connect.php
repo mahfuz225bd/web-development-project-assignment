@@ -28,13 +28,21 @@ class Table extends Database
     $this->name = $name;
   }
 
-  function select_all($limit = NULL)
+  function selectAll($limit = NULL)
   {
 
     if (!$limit) {
       return $this->conn->query("SELECT * FROM " . $this->name);
     }
     return $this->conn->query("SELECT * FROM " . $this->name . " LIMIT " . $limit);
+  }
+
+  function selectWhere($condition, $limit = NULL)
+  {
+    if (!$limit) {
+      return $this->conn->query("SELECT * FROM " . $this->name . " WHERE " . $condition);
+    }
+    return $this->conn->query("SELECT * FROM " . $this->name . " WHERE " . $condition . " LIMIT " . $limit);
   }
 
   function delete($id, $id_field = 'id')

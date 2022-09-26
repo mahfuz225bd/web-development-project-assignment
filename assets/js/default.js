@@ -107,26 +107,29 @@ document.addEventListener('DOMContentLoaded', () => {
 	}
 
 	// onSubmit: Create a chatbot user
-	const chat = document.forms.chat;
+	const chatStarter = document.forms.chatStarter;
 
-	if (chat) {
-		chat.addEventListener('submit', (e) => {
+	if (chatStarter) {
+		chatStarter.addEventListener('submit', (e) => {
 			e.preventDefault();
 
 			// While $_POST is being processed
-
 			const data = new URLSearchParams();
 
 			new FormData(e.target).forEach((value, key) => {
 				data.append(key, value);
 			});
 
-			fetch('../../api/models/userLogin.php', {
+			fetch('../../api/views/chatMessages.php', {
 				method: 'POST',
 				body: data,
 			})
 				.then((response) => {
-					document.querySelector('#chat').style.backgroundColor = '#fff';
+					// For showing error messages clearly
+					chatStarter.style.backgroundColor = '#fff';
+
+					chatStarter.style.display = 'none';
+					document.getElementById('chatBox').style.display = 'block';
 					return response.text();
 				})
 				.then((text) => (e.target.innerHTML = text))
