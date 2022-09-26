@@ -1,13 +1,20 @@
 <?php
-require_once __DIR__ . '/api/controllers/db.connect.php';
+require_once '../controllers/db.connect.php';
+
+session_start();
+
 
 $users = new Table('users');
 
 // While chat is being started with starter information 
-if (isset($_POST['submit'])) {
+if (isset($_POST['name'])) {
+  $now = time();
+
+  $_SESSION['username'] = $_POST['name'] . $now;
+
   $users->insert(
     array(
-      'datetime' => time(),
+      'datetime' => date('Y-m-d\TH:i:s.uP', $now),
       'username' => $_POST['name'],
       'email' => $_POST['email'],
       'phone_number' => $_POST['phone'],

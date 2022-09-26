@@ -16,7 +16,7 @@
 
     <textarea placeholder="Type message.." name="msg" required></textarea>
 
-    <button type="submit" class="btn btn-primary">Send</button>
+    <button type="submit" class="btn btn-primary" name="submit">Send</button>
     <button type="button" class="btn btn-danger" onclick="document.querySelector('.chat-popup').style.display = 'none';">
       Close
     </button>

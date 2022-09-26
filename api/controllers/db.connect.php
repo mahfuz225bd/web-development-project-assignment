@@ -1,6 +1,6 @@
 <?php
 
-require_once './api/controllers/db.config.php';
+require_once __DIR__ . '/db.config.php';
 
 class Database
 {
@@ -25,10 +25,6 @@ class Table extends Database
   {
     $this->conn = parent::getConnection();
 
-    if ($this->conn->connect_error) {
-      die("Connection failed: " . $this->conn->connect_error);
-    }
-
     $this->name = $name;
   }
 
@@ -36,14 +32,14 @@ class Table extends Database
   {
 
     if (!$limit) {
-      return mysqli_query($this->conn, "SELECT * FROM " . $this->name);
+      return $this->conn->query("SELECT * FROM " . $this->name);
     }
-    return mysqli_query($this->conn, "SELECT * FROM " . $this->name . " LIMIT " . $limit);
+    return $this->conn->query("SELECT * FROM " . $this->name . " LIMIT " . $limit);
   }
 
   function delete($id, $id_field = 'id')
   {
-    return mysqli_query($this->conn, "DELETE FROM " . $this->name . " WHERE " . $id_field . "=" . $id);
+    return $this->conn->query("DELETE FROM " . $this->name . " WHERE " . $id_field . "=" . $id);
   }
 
   function update($update_set, $id, $id_field = 'id')
@@ -53,8 +49,7 @@ class Table extends Database
       $value = "`{$key}`='{$value}'";
     });
 
-    return mysqli_query(
-      $this->conn,
+    return $this->conn->query(
       "UPDATE " . $this->name . " 
     SET 
     " . implode(', ', $column_value_pairs) . "
@@ -74,7 +69,9 @@ class Table extends Database
       $value = "'{$value}'";
     });
 
-    return mysqli_query($this->conn, "INSERT INTO " . $this->name .
+    echo "<script>console.log('done');</script>";
+
+    return $this->conn->query("INSERT INTO " . $this->name .
       "(" . implode(',', $columnNames) . ")" .
       " VALUES (" . implode(',', $values) . ")");
   }
@@ -98,6 +95,10 @@ class Table extends Database
 
   function __destruct()
   {
+    if ($this->conn->connect_error) {
+      die("Connection failed: " . $this->conn->connect_error);
+    }
+
     parent::__destruct();
   }
 }

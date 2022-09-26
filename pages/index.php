@@ -1,6 +1,6 @@
 <header>
 	<?php
-	require_once 'pages/layout/header.php'
+	require_once 'pages/layout/header.php';
 	?>
 </header>
 

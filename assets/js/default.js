@@ -127,7 +127,6 @@ document.addEventListener('DOMContentLoaded', () => {
 			})
 				.then((response) => {
 					document.querySelector('#chat').style.backgroundColor = '#fff';
-
 					return response.text();
 				})
 				.then((text) => (e.target.innerHTML = text))
