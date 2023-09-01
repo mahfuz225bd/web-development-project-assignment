@@ -15,7 +15,7 @@
 	</section>
 
 	<!-- Section Counter -->
-	<section class="col-4">
+	<section class="col-4 mlr-5">
 		<article>
 			<div class="card">
 				<p><i class="fa fa-user" aria-hidden="true"></i></p>
@@ -47,7 +47,7 @@
 	</section>
 
 	<!-- Pricing for Work -->
-	<section class="col-3" id="hire">
+	<section class="col-3 mlr-25" id="hire">
 		<h3>Hire Me for Your Website</h3>
 		<article>
 			<ul class="price-table">
@@ -103,7 +103,7 @@
 
 	<!-- Portfolio Gallery - Section I -->
 	<!-- img src provided according to root index -->
-	<section class="col-4">
+	<section class="col-4 mlr-10">
 		<article>
 			<a class="portfolio-container-link" href="portfolio?id=1">
 				<div class="portfolio-container">
@@ -155,7 +155,7 @@
 	</section>
 
 	<!-- Portfolio Gallery - Section II -->
-	<section id="" class="col-4">
+	<section id="" class="col-4 mlr-10">
 		<article>
 			<a class="portfolio-container-link" href="portfolio?id=5">
 				<div class="portfolio-container">
@@ -219,7 +219,7 @@
 	</section>
 
 	<!-- Skillbar -->
-	<section class="col-2">
+	<section class="col-2 mlr-25">
 		<article>
 			<h3><i class="fa fa-asterisk"></i> My Skills</h3>
 			<p>HTML + CSS/Bootstrap</p>
@@ -258,7 +258,7 @@
 
 	<!-- Testimonial -->
 	<!-- img src provided according to root index -->
-	<section class="col-1">
+	<section class="col-1 mlr-25">
 		<h3>Some Quotes of People About Me</h3>
 		<article>
 			<div class="testimonial">

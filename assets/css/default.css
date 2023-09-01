@@ -180,3 +180,29 @@ footer section label,
 footer section address {
 	opacity: 0.5;
 }
+
+/* Widths */
+.mlr-25 {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.mlr-10 {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.mlr-5 {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+@media screen and (max-width: 600px) {
+
+	.mlr-5,
+	.mlr-10,
+	.mlr-25 {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
