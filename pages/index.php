@@ -258,7 +258,7 @@
 
 	<!-- Testimonial -->
 	<!-- img src provided according to root index -->
-	<section class="col-1 mlr-25">
+	<section class="col-1 mlr-10">
 		<h3>Some Quotes of People About Me</h3>
 		<article>
 			<div class="testimonial">
